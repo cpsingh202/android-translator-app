@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Translator App</string>
+
+    <string name="msg_welcome">Hello World</string>
+    <string name="btn_hindi" translatable="false">HINDI</string>
+    <string name="btn_english" translatable="false">ENGLISH</string>
+    <string name="btn_chinese" translatable="false">CHINESE</string>
+
+</resources>
