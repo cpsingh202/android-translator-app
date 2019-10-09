@@ -39,6 +39,11 @@ class MainActivity : AppCompatActivity(), AppEventListener {
         if (Utils.languageData != null) {
             binding.run {
                 Utils.getViewText(tvMessage.getKey(), mLanguage)?.let { tvMessage.text = it }
+                Utils.getViewText(tvSubject.getKey(), mLanguage)?.let { tvSubject.text = it }
+                Utils.getViewText(tvBody.getKey(), mLanguage)?.let { tvBody.text = it }
+                Utils.getViewText(tvSignature.getKey(), mLanguage)?.let { tvSignature.text = it }
+                Utils.getViewText(tvAddress1.getKey(), mLanguage)?.let { tvAddress1.text = it }
+                Utils.getViewText(tvAddress2.getKey(), mLanguage)?.let { tvAddress2.text = it }
             }
         }
     }

@@ -3,6 +3,11 @@
     <string name="app_name" translatable="false">Translator App</string>
 
     <string name="message">Hello World</string>
+    <string name="subject">This is a demo app</string>
+    <string name="body">Expected output is showing text in different language</string>
+    <string name="signature">C P Singh</string>
+    <string name="address1">Side Road, South City</string>
+    <string name="address2">Gurugram, India</string>
 
     <string name="btn_hindi" translatable="false">HINDI</string>
     <string name="btn_english" translatable="false">ENGLISH</string>

@@ -10,7 +10,7 @@
             type="com.assignment.android.translatorapp.AppEventListener" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
@@ -20,18 +20,65 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tv_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_large"
                 android:gravity="center"
                 android:text="@string/message"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_heading" />
+
+            <TextView
+                android:id="@+id/tv_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_large"
+                android:gravity="center"
+                android:text="@string/subject"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_heading" />
+
+            <TextView
+                android:id="@+id/tv_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_large"
+                android:gravity="center"
+                android:text="@string/body"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_heading" />
+
+            <TextView
+                android:id="@+id/tv_signature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_large"
+                android:gravity="center"
+                android:text="@string/signature"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_heading" />
+
+            <TextView
+                android:id="@+id/tv_address_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_large"
+                android:gravity="center"
+                android:text="@string/address1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_heading" />
+
+            <TextView
+                android:id="@+id/tv_address_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_large"
+                android:gravity="center"
+                android:text="@string/address2"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/text_heading" />
 
@@ -66,5 +113,5 @@
                 android:text="@string/btn_chinese"
                 android:textColor="@android:color/white" />
         </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 </layout>

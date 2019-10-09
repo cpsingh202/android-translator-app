@@ -1,5 +1,10 @@
 <resources>
 
     <string name="message">नमस्ते दुनिया</string>
+    <string name="subject">यह एक डेमो ऐप है</string>
+    <string name="body">अपेक्षित आउटपुट विभिन्न भाषा में पाठ दिखा रहा है</string>
+    <string name="signature">सी पी सिंह</string>
+    <string name="address1">साइड रोड, साउथ सिटी</string>
+    <string name="address2">गुरुग्राम, भारत</string>
 
 </resources>

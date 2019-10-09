@@ -1,5 +1,10 @@
 <resources>
 
     <string name="message">你好，世界</string>
+    <string name="subject">这是一个演示应用程序</string>
+    <string name="body">预期的输出显示不同语言的文本</string>
+    <string name="signature">辛格</string>
+    <string name="address1">南部城市小路y</string>
+    <string name="address2">印度古尔格拉姆</string>
 
 </resources>
