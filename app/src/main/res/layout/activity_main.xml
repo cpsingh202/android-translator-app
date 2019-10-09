@@ -13,6 +13,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
         tools:context=".MainActivity">
 
         <LinearLayout
@@ -26,10 +27,11 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/tv_title"
+                android:id="@+id/tv_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/msg_welcome"
+                android:gravity="center"
+                android:text="@string/message"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/text_heading" />
 
@@ -58,6 +60,7 @@
                 android:layout_width="220dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/space_large"
+                android:layout_marginBottom="@dimen/space_large"
                 android:background="@color/colorPrimary"
                 android:onClick="@{()->listener.onChineseSelected()}"
                 android:text="@string/btn_chinese"
